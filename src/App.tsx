@@ -1,4 +1,5 @@
 import { defineComponent, Ref, ref } from "vue";
+import Setup from "./setup.vue";
 
 type AppProps = {};
 
@@ -37,6 +38,8 @@ export default defineComponent<AppProps>((props, ctx) => {
                     }
                 }}
             />
+
+            <Setup />
         </div>
     );
 });
